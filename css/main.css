@@ -450,7 +450,7 @@ textarea {
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, transparent 80%);
-  background-size: 6.32911%;
+  background-size: 12.82051%;
   background-origin: content-box;
   background-clip: content-box;
   background-position: left top;
@@ -461,4 +461,20 @@ textarea {
   content: " ";
   display: block;
   clear: both;
+}
+
+/* line 14, ../scss/main.scss */
+.sidebar-left {
+  height: 80vh;
+  background-color: rgba(0, 100, 100, 0.6);
+  float: left;
+  margin-right: 2.5641%;
+}
+
+/* line 20, ../scss/main.scss */
+.main {
+  height: 80vh;
+  width: 62.02532%;
+  float: left;
+  margin-right: 1.26582%;
 }

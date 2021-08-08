@@ -2,11 +2,22 @@
 @import 'susy';
 
 $susy: (
-columns: 16,
+columns: 8,
 debug: (image:show)
 );
 
 .container {
   @include container();
   height: 100vh;
+}
+
+.sidebar-left {
+  height: 80vh;
+  background-color: rgba(0, 100,100,0.6);
+  @include span(2 od 16);
+}
+
+.main {
+  height: 80vh;
+  @include span(10 of 16);
 }
