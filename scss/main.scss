@@ -14,10 +14,21 @@ debug: (image:show)
 .sidebar-left {
   height: 80vh;
   background-color: rgba(0, 100,100,0.6);
-  @include span(2 od 16);
+  @include span(2 of 16);
 }
 
 .main {
   height: 80vh;
   @include span(10 of 16);
+
+  .content {
+    height: 60vh;
+    background-color: rgba(100,0,0,.6);
+  }
+
+  .teaser {
+    height: 20vh;
+    color: rgba(100,20,100,0.6);
+    @include span(2 of 10);
+  }
 }
