@@ -5,3 +5,7 @@ $susy: (
 columns: 16,
 debug: (image:show)
 );
+
+.container {
+  @include container();
+}
