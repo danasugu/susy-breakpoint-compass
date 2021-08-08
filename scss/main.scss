@@ -28,7 +28,11 @@ debug: (image:show)
 
   .teaser {
     height: 20vh;
-    color: rgba(100,20,100,0.6);
+    background-color: rgba(100,20,100,0.6);
     @include span(2 of 10);
+
+    &:nth-child(5n) {
+      @include last;
+    }
   }
 }

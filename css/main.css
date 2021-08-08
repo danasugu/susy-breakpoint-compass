@@ -487,8 +487,13 @@ textarea {
 /* line 29, ../scss/main.scss */
 .main .teaser {
   height: 20vh;
-  color: rgba(100, 20, 100, 0.6);
+  background-color: rgba(100, 20, 100, 0.6);
   width: 18.36735%;
   float: left;
   margin-right: 2.04082%;
+}
+/* line 34, ../scss/main.scss */
+.main .teaser:nth-child(5n) {
+  float: right;
+  margin-right: 0;
 }
