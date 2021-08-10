@@ -444,7 +444,14 @@ textarea {
   /* 2 */
 }
 
-/* line 9, ../scss/main.scss */
+/* line 21, ../../../../Ruby30-x64/lib/ruby/gems/3.0.0/gems/susy-2.2.14/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 12, ../scss/main.scss */
 .container {
   max-width: 100%;
   margin-left: auto;
@@ -463,7 +470,7 @@ textarea {
   clear: both;
 }
 
-/* line 14, ../scss/main.scss */
+/* line 17, ../scss/main.scss */
 .sidebar-left {
   height: 80vh;
   background-color: rgba(0, 100, 100, 0.6);
@@ -472,28 +479,45 @@ textarea {
   margin-right: 1.26582%;
 }
 
-/* line 20, ../scss/main.scss */
+/* line 23, ../scss/main.scss */
 .main {
   height: 80vh;
   width: 62.02532%;
   float: left;
   margin-right: 1.26582%;
 }
-/* line 24, ../scss/main.scss */
+/* line 27, ../scss/main.scss */
 .main .content {
   height: 60vh;
   background-color: rgba(100, 0, 0, 0.6);
 }
-/* line 29, ../scss/main.scss */
+/* line 32, ../scss/main.scss */
 .main .teaser {
   height: 20vh;
   background-color: rgba(100, 20, 100, 0.6);
+  padding: 2.04082%;
   width: 18.36735%;
   float: left;
   margin-right: 2.04082%;
 }
-/* line 34, ../scss/main.scss */
+/* line 38, ../scss/main.scss */
 .main .teaser:nth-child(5n) {
   float: right;
   margin-right: 0;
+}
+
+/* line 44, ../scss/main.scss */
+.sidebar-right {
+  height: 80vh;
+  background-color: rgba(100, 100, 30, 0.6);
+  width: 24.05063%;
+  float: right;
+  margin-right: 0;
+}
+
+/* line 50, ../scss/main.scss */
+.footer {
+  height: 20vh;
+  background-color: rgba(0, 30, 100, 0.6);
+  clear: both;
 }

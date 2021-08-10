@@ -3,8 +3,11 @@
 
 $susy: (
 columns: 16,
-debug: (image:show)
+debug: (image:show),
+global-box-sizing:border-sizing
 );
+
+@include border-box-sizing;
 
 .container {
   @include container();
@@ -29,10 +32,23 @@ debug: (image:show)
   .teaser {
     height: 20vh;
     background-color: rgba(100,20,100,0.6);
+    padding: gutter(10);
     @include span(2 of 10);
 
     &:nth-child(5n) {
       @include last;
     }
   }
+}
+
+.sidebar-right {
+  height: 80vh;
+  background-color: rgba(100, 100, 30, .6);
+  @include span(4 of 16 last);
+}
+
+.footer {
+  height: 20vh;
+  background-color: rgba(0,30,100,0.6);
+  clear: both;
 }
